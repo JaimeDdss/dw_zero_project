@@ -1,1 +1,1 @@
-# dw_zero_project
+# Data pipeline using Python | SQL | DBT Core | PostgreSQL
