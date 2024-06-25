@@ -1,1 +1,1 @@
-# Data pipeline using Python | SQL | DBT Core | PostgreSQL
+# Data Warehouse Project using Python | SQL | DBT-Core 
