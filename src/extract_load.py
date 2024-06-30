@@ -23,7 +23,7 @@ commodities = ['CL=F', 'GC=F', 'SI=F']
 
 # extracting data
 def data_extract(symbol, period = '2y', interval = '1d'):
-    ticker = yf.Ticker('CL=F')
+    ticker = yf.Ticker(symbol)
     data = ticker.history(period = period, interval = interval)[['Close']]
     data['symbol'] = symbol
     return data
