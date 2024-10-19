@@ -38,10 +38,14 @@ def concatenar_dados(commodities):
 
 # save into a PostgreSQL database on Render
 def save_postgres(df, schema= 'public'):
-    df.to_sql('commodities', engine , if_exists='replace', index=True, index_label='Date',schema= schema)
+    df.to_sql('commodities', engine , if_exists='replace',
+               index=True, index_label='Date',schema= schema)
 
 
-# main function
-if __name__ == '__main__':
+
+def main():
     dados_concatenados = concatenar_dados(commodities)
-    save_postgres(dados_concatenados, schema = 'public')
+    save_postgres(dados_concatenados, schema='public')
+
+if __name__ == "__main__":
+    main()
