@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo criar um Data Warehouse (DW) para armazenar e analisar dados de commodities, utilizando uma arquitetura moderna de ETL (Extract,Transform, Load). O projeto inclui:
 
-[Documentação do DBT](https://JaimeDdss.github.io/dw_zero_project/#!/overview)
+[Documentação do DBT](datawarehouse/docs/homepage.md)
 
 [Dashboard](https://JaimeDdss-dw_zero_project-appapp-vp0gw4.streamlit.app/)
 
